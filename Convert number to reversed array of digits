@@ -1,0 +1,13 @@
+def digitize(n):
+    
+    
+    l = []
+    d = n
+    if n==0:
+        return [0]
+    else:
+        while d!=0:
+            rem = d%10
+            l.append(rem)
+            d//=10
+        return l
