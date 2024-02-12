@@ -1,0 +1,10 @@
+def remove_char(s):
+    l = []
+    length = len(s)
+    for i in range(length):
+        if i==0 or i==length-1:
+            continue
+        else:
+            l.append(s[i])
+    str = ''.join(l)
+    return str
