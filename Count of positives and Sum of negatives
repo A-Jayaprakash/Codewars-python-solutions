@@ -1,0 +1,21 @@
+def count_positives_sum_negatives(arr):
+    pos = []
+    neg = []
+    l = []
+    length = len(arr)
+    if length ==0:
+        return []
+    else:
+        
+        for i in range(length):
+            if arr[i]>0:
+                pos.append(arr[i])
+            else:
+                neg.append(arr[i])
+        positive = len(pos)
+
+        negative = sum(neg)
+        l.append(positive)
+        l.append(negative)
+
+        return l
