@@ -1,0 +1,18 @@
+def get_count(sentence):
+    count =0
+    length = len(sentence)  
+    for i in range(length):
+        if sentence[i] == 'a':
+            count+=1
+        elif sentence[i] == 'e':
+            count+=1
+        elif sentence[i] == 'i':
+            count+=1
+        elif sentence[i] == 'o':
+            count+=1
+        elif sentence[i] == 'u':
+            count+=1
+        else:
+            count+=0
+        
+    return count
