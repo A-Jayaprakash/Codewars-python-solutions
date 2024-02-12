@@ -1,0 +1,6 @@
+def find_needle(haystack):
+    for i in range(0, 100,1):
+        if haystack[i] == "needle":
+            return "found the needle at position {}".format(i)
+
+#python code to find the string needle in a list containing junk and hays
