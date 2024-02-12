@@ -1,0 +1,6 @@
+def are_you_playing_banjo(name):
+    first = name[0].title()
+    if first == 'R':
+        return name+ " plays banjo"
+    else:
+        return name+ " does not play banjo"
